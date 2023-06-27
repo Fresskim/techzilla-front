@@ -1,0 +1,155 @@
+.adminPanel {
+    padding: 20px;
+}
+
+.btnAddNew {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px 0;
+    padding: 10px 20px;
+
+}
+
+.btnAddNew:hover {
+    background-color: #45a049;
+
+
+}
+
+.redButton {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+.redButton:hover {
+    background-color: #c0392b;
+}
+
+
+.productForm {
+    margin-bottom: 20px;
+}
+
+.productForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.productForm input,
+.productForm textarea,
+.productForm select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.productForm button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.productTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.productTable thead {
+    background-color: #f0f0f0;
+}
+
+.productTable th,
+.productTable td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.productTable th {
+    text-align: left;
+    font-weight: bold;
+}
+
+.productTable td {
+    border-top: 1px solid #ddd;
+}
+
+.productTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.productTable tr:hover {
+    background-color: #f5f5f5;
+}
+
+.updateBtn {
+    background-color: #4caf50;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.updateBtn:hover {
+    background-color: #45a049;
+}
+
+.editBtn {
+    background-color: #00B7FF;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.editBtn:hover {
+    background-color: #0095D6;
+}
+
+
+.deleteBtn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 0;
+
+}
+
+.deleteBtn:hover {
+    background-color: #c0392b;
+}
+
+.thumbnail {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}

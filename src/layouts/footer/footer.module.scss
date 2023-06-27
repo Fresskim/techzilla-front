@@ -1,0 +1,48 @@
+.footer {
+    background: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    margin: 0 85px;
+
+}
+
+.category h6 {
+
+    font-size: 700;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.category img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.socialIcons {
+    margin-bottom: 10px;
+}
+
+.socialIcons a {
+    margin-right: 10px;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+.socialIcons a:hover {
+    color: #007bff;
+}
